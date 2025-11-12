@@ -25,5 +25,5 @@ spec:
         
     spec:
       containers:
-      - name: nginx
+      - name: mongodb
         image: hrushikesh45/mongodb
