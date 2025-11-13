@@ -104,8 +104,8 @@ spec:
         volumeMounts:
         - name: nginx-conf
           mountPath: /etc/nginx/nginx.conf
-          subpath: nginx.conf
-          readonly: true
+          subPath: nginx.conf
+          readOnly: true
       volumes:
         - name: nginx-conf
           configMap:
