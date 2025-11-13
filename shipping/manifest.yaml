@@ -4,9 +4,9 @@ metadata:
   name: shipping
   namespace: roboshop
   labels:
-    component: mongodb
+    component: shipping
     project: roboshop
-    tier: database
+    tier: app
 data:
   CART_ENDPOINT: "cart:8080" 
   DB_HOST: "mysql"
